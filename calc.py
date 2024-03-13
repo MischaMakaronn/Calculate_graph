@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 
 win = tk.Tk()
-photo = tk.PhotoImage(file="fun.png")
 width = 240
 height = 270
 win.title('Калькулятор')
