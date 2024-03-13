@@ -8,6 +8,8 @@ height = 270
 win.title('Калькулятор')
 win['bg'] = '#F4A460'
 win.geometry(f"{width}x{height}+500+200")
+photo = tk.PhotoImage(file="fun.png")
+win.iconphoto(False, photo)
 
 
 
